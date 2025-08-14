@@ -181,7 +181,7 @@ body{
     grid-template-columns: 1fr;
   }
 }
-@media (min-width: 991px) {
+@media (min-width: 992px) {
   .about-card {
     position: sticky;
     top: 6.5rem;
