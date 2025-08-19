@@ -59,7 +59,8 @@ body{
 .fab-icon {
   width: 50px;
   height: 50px;
-  background-color: #ffffff;
+  background: linear-gradient(360deg, var(--accent), var(--accent-2));
+  color: white;
   border-radius: 50%;
   border: solid 1px #bfb7b7;
   display: flex;
@@ -87,8 +88,8 @@ body{
 }
 .fab-item {
   background: white;
-  color: black;
-  border: 1px solid #bfb7b7;
+  color: var(--accent-2);
+  border: 1px solid var(--accent-2);
   border-radius: 20px;
   padding: 8px 16px;
   font-size: 20px;
@@ -99,7 +100,8 @@ body{
   transition: background 0.2s;
 }
 .fab-item:hover {
-  background-color: #f0f0f0;
+  background: linear-gradient(270deg, var(--accent), var(--accent-2));
+  color: white;
   cursor: pointer;
 }
 
