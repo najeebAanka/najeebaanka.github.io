@@ -651,6 +651,9 @@ p {
   }
 }
 @media(max-width:600px) {
+  .project-media .preview-link {
+    display:none
+  }
   .business-outcomes {
     grid-template-columns:1fr;
     gap:28px
@@ -1922,13 +1925,30 @@ content stays visible without JS. */
     font-size:.9rem
   }
   .career-highlights {
+    grid-template-columns:1fr;
+    gap:0;
+    padding-block:0;
     margin-bottom:45px
   }
+  .career-highlights>div {
+    display:grid;
+    grid-template-columns:110px minmax(0,1fr);
+    align-items:center;
+    gap:18px;
+    padding-block:20px
+  }
+  .career-highlights>div+div {
+    border-top:1px solid var(--line)
+  }
   .career-highlights strong {
-    font-size:1.3rem
+    font-size:1.4rem;
+    line-height:1.25;
+    color:var(--text)
   }
   .career-highlights span {
-    font-size:.6rem
+    font-size:.78rem;
+    line-height:1.6;
+    margin-top:0
   }
   .experience>h2,.education>h2 {
     font-size:1.65rem
