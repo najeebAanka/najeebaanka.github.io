@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" fill="none">
+  <rect width="1200" height="720" fill="#EAF0FF"/>
+  <circle cx="1110" cy="60" r="270" stroke="#CDDAF7"/><circle cx="1110" cy="60" r="345" stroke="#CDDAF7"/>
+  <g font-family="Arial, sans-serif">
+    <text x="85" y="92" fill="#285BE8" font-size="17" font-weight="600">SEARCH FOUNDATIONS</text>
+    <text x="85" y="191" fill="#17233A" font-size="54" font-weight="700">Make useful content discoverable.</text>
+    <rect x="85" y="272" width="640" height="276" rx="14" fill="#fff" stroke="#D0DCF5"/><rect x="112" y="298" width="586" height="49" rx="8" fill="#F3F6FC" stroke="#D0DCF5"/><circle cx="140" cy="320" r="9" fill="#285BE8"/><path d="M146 327L154 335" stroke="#285BE8" stroke-width="3"/><text x="174" y="329" fill="#17233A" font-size="19" font-weight="400">A question worth answering</text><rect x="113" y="385" width="310" height="10" rx="3" fill="#285BE8" stroke="#285BE8"/><rect x="113" y="407" width="540" height="6" rx="3" fill="#C6D4ED" stroke="#C6D4ED"/><rect x="113" y="438" width="390" height="10" rx="3" fill="#285BE8" stroke="#285BE8"/><rect x="113" y="460" width="540" height="6" rx="3" fill="#C6D4ED" stroke="#C6D4ED"/><rect x="113" y="491" width="280" height="10" rx="3" fill="#285BE8" stroke="#285BE8"/><rect x="113" y="513" width="540" height="6" rx="3" fill="#C6D4ED" stroke="#C6D4ED"/><circle cx="805" cy="318" r="7" fill="#285BE8"/><text x="832" y="324" fill="#17233A" font-size="24" font-weight="400">Helpful content</text><circle cx="805" cy="393" r="7" fill="#285BE8"/><text x="832" y="399" fill="#17233A" font-size="24" font-weight="400">Clear structure</text><circle cx="805" cy="468" r="7" fill="#285BE8"/><text x="832" y="474" fill="#17233A" font-size="24" font-weight="400">Connected pages</text>
+    <path d="M85 610H1115" stroke="#CDDAF7" stroke-width="2"/>
+    <text x="85" y="660" fill="#58667B" font-size="17" font-weight="400">NOTES ON BUILDING BETTER WEBSITES</text>
+    <text x="1115" y="660" fill="#17233A" font-size="21" font-weight="700" text-anchor="end">Najeeb Anka.</text>
+  </g>
+</svg>

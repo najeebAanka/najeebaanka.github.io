@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" fill="none">
+  <rect width="1200" height="720" fill="#EAF0FF"/>
+  <circle cx="1110" cy="60" r="270" stroke="#CDDAF7"/><circle cx="1110" cy="60" r="345" stroke="#CDDAF7"/>
+  <g font-family="Arial, sans-serif">
+    <text x="85" y="92" fill="#285BE8" font-size="17" font-weight="600">THE ESSENTIALS</text>
+    <text x="85" y="191" fill="#17233A" font-size="54" font-weight="700">Small site. Strong foundations.</text>
+    <rect x="85" y="265" width="610" height="285" rx="14" fill="#fff" stroke="#D0DCF5"/><path d="M85 303H695" stroke="#C6D4ED" stroke-width="2"/><circle cx="105" cy="284" r="4" fill="#AFC4FF"/><circle cx="120" cy="284" r="4" fill="#AFC4FF"/><circle cx="135" cy="284" r="4" fill="#AFC4FF"/><rect x="113" y="330" width="310" height="16" rx="4" fill="#17233A" stroke="#17233A"/><rect x="113" y="361" width="250" height="8" rx="4" fill="#C6D4ED" stroke="#C6D4ED"/><rect x="113" y="382" width="265" height="8" rx="4" fill="#C6D4ED" stroke="#C6D4ED"/><rect x="113" y="419" width="130" height="38" rx="6" fill="#285BE8" stroke="#285BE8"/><rect x="459" y="330" width="207" height="188" rx="8" fill="#EDF2FB" stroke="#D0DCF5"/><rect x="113" y="485" width="142" height="33" rx="6" fill="#EDF2FB" stroke="#D0DCF5"/><rect x="269" y="485" width="142" height="33" rx="6" fill="#EDF2FB" stroke="#D0DCF5"/><circle cx="776" cy="304" r="12" fill="#285BE8"/><path d="M770 304l4 4 8-9" stroke="white" stroke-width="2"/><text x="803" y="310" fill="#17233A" font-size="23" font-weight="400">Clear services</text><circle cx="776" cy="366" r="12" fill="#285BE8"/><path d="M770 366l4 4 8-9" stroke="white" stroke-width="2"/><text x="803" y="372" fill="#17233A" font-size="23" font-weight="400">Credible work</text><circle cx="776" cy="428" r="12" fill="#285BE8"/><path d="M770 428l4 4 8-9" stroke="white" stroke-width="2"/><text x="803" y="434" fill="#17233A" font-size="23" font-weight="400">Easy contact</text><circle cx="776" cy="490" r="12" fill="#285BE8"/><path d="M770 490l4 4 8-9" stroke="white" stroke-width="2"/><text x="803" y="496" fill="#17233A" font-size="23" font-weight="400">A complete journey</text>
+    <path d="M85 610H1115" stroke="#CDDAF7" stroke-width="2"/>
+    <text x="85" y="660" fill="#58667B" font-size="17" font-weight="400">NOTES ON BUILDING BETTER WEBSITES</text>
+    <text x="1115" y="660" fill="#17233A" font-size="21" font-weight="700" text-anchor="end">Najeeb Anka.</text>
+  </g>
+</svg>

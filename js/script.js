@@ -88,13 +88,21 @@ if (filters.length && projectCards.length) {
       filter.classList.toggle('active', filter === button);
       filter.setAttribute('aria-pressed', String(filter === button));
     });
-    let visible = 0;
     projectCards.forEach(card => {
       const show = category === 'all' || card.dataset.category === category;
       card.hidden = !show;
-      if (show) { visible++; card.classList.remove('is-pending'); }
+      if (show) {
+        card.classList.remove('is-pending');
+        card.getAnimations().forEach(animation => animation.cancel());
+        if (!reducedMotion.matches && typeof card.animate === 'function') {
+          card.animate([
+            { opacity: 0, transform: 'translateY(10px)' },
+            { opacity: 1, transform: 'translateY(0)' }
+          ], { duration: 320, easing: 'ease-out' });
+        }
+      }
     });
-    document.querySelector('.filter-status').textContent = category === 'all' ? `Showing all ${visible} projects` : `Showing ${visible} ${category === 'landing' ? 'landing pages' : 'websites'}`;
+    document.querySelector('.filter-status').textContent = category === 'all' ? 'Selected projects across all categories' : `Selected ${category === 'landing' ? 'landing pages' : 'website projects'}`;
   }));
 }
 const copyButton = document.querySelector('.copy-email');

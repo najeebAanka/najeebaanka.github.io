@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" fill="none">
+  <rect width="1200" height="720" fill="#EAF0FF"/>
+  <circle cx="1110" cy="80" r="260" stroke="#CDDAF7"/>
+  <circle cx="1110" cy="80" r="340" stroke="#DAE4FA"/>
+  <g font-family="Arial, sans-serif">
+    <text x="85" y="92" fill="#285BE8" font-size="17" letter-spacing="4">BEFORE THE FIRST LINE OF CODE</text>
+    <text x="85" y="191" fill="#17233A" font-size="58" font-weight="700" letter-spacing="-2">A clear plan. A better website.</text>
+    <path d="M295 400H450M680 400H825" stroke="#9EB7EE" stroke-width="3" stroke-dasharray="7 9"/>
+    <rect x="85" y="285" width="285" height="235" rx="18" fill="#fff" stroke="#D0DCF5"/>
+    <rect x="457" y="285" width="285" height="235" rx="18" fill="#fff" stroke="#D0DCF5"/>
+    <rect x="829" y="285" width="285" height="235" rx="18" fill="#17233A"/>
+    <text x="115" y="333" fill="#285BE8" font-size="18">01 / PURPOSE</text>
+    <text x="487" y="333" fill="#285BE8" font-size="18">02 / JOURNEY</text>
+    <text x="859" y="333" fill="#AFC4FF" font-size="18">03 / DELIVERY</text>
+    <circle cx="142" cy="405" r="22" stroke="#285BE8" stroke-width="3"/>
+    <circle cx="142" cy="405" r="9" fill="#285BE8"/>
+    <path d="M491 402H535V380H575V425H620V397H665" stroke="#285BE8" stroke-width="3"/>
+    <path d="M861 403L879 421L915 381" stroke="#AFC4FF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="115" y="478" fill="#58667B" font-size="21">Define the outcome</text>
+    <text x="487" y="478" fill="#58667B" font-size="21">Map the experience</text>
+    <text x="859" y="478" fill="#fff" font-size="21">Agree on the scope</text>
+    <path d="M85 610H1115" stroke="#CDDAF7"/>
+    <text x="85" y="660" fill="#58667B" font-size="17">NOTES ON BUILDING BETTER WEBSITES</text>
+    <text x="1115" y="660" fill="#17233A" font-size="21" font-weight="700" text-anchor="end">Najeeb Anka.</text>
+  </g>
+</svg>

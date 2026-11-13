@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" fill="none">
+  <rect width="1200" height="720" fill="#17233A"/>
+  <circle cx="1110" cy="60" r="270" stroke="#334763"/><circle cx="1110" cy="60" r="345" stroke="#334763"/>
+  <g font-family="Arial, sans-serif">
+    <text x="85" y="92" fill="#AFC4FF" font-size="17" font-weight="600">FROM INTEREST TO INTENT</text>
+    <text x="85" y="191" fill="#fff" font-size="54" font-weight="700">From discovery to a conversation.</text>
+    <rect x="85" y="290" width="320" height="245" rx="14" fill="#22344F" stroke="#3B5275"/><text x="110" y="337" fill="#AFC4FF" font-size="16" font-weight="600">01 / DISCOVER</text><text x="110" y="404" fill="#fff" font-size="27" font-weight="700">A relevant page</text><text x="110" y="451" fill="#BAC4D5" font-size="20" font-weight="400">Answer the question</text><path d="M413 410h19m-6-6 6 6-6 6" stroke="#9FB8FF" stroke-width="2"/><rect x="440" y="290" width="320" height="245" rx="14" fill="#22344F" stroke="#3B5275"/><text x="465" y="337" fill="#AFC4FF" font-size="16" font-weight="600">02 / UNDERSTAND</text><text x="465" y="404" fill="#fff" font-size="27" font-weight="700">A credible offer</text><text x="465" y="451" fill="#BAC4D5" font-size="20" font-weight="400">Show useful evidence</text><path d="M768 410h19m-6-6 6 6-6 6" stroke="#9FB8FF" stroke-width="2"/><rect x="795" y="290" width="320" height="245" rx="14" fill="#22344F" stroke="#3B5275"/><text x="820" y="337" fill="#AFC4FF" font-size="16" font-weight="600">03 / ACT</text><text x="820" y="404" fill="#fff" font-size="27" font-weight="700">A clear next step</text><text x="820" y="451" fill="#BAC4D5" font-size="20" font-weight="400">Make contact simple</text>
+    <path d="M85 610H1115" stroke="#334763" stroke-width="2"/>
+    <text x="85" y="660" fill="#A8B8D2" font-size="17" font-weight="400">NOTES ON BUILDING BETTER WEBSITES</text>
+    <text x="1115" y="660" fill="#fff" font-size="21" font-weight="700" text-anchor="end">Najeeb Anka.</text>
+  </g>
+</svg>

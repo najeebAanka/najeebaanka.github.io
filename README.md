@@ -20,7 +20,7 @@ Open `http://127.0.0.1:8765/`. Stop the server with Ctrl+C. A local server also 
 - `about/`, `projects/`, `blogs/`, `contact/`: existing public page URLs.
 - `css/style.css`: shared responsive design and motion preferences.
 - `js/script.js`: navigation, scroll reveals, project filters, and copy-email feedback.
-- `assets/`: existing screenshots, images, and CV.
+- `assets/`: current screenshots, blog covers, portrait, favicons, and CV. SVG files paired with PNG blog covers are editable source illustrations and should be kept when the PNG is in use.
 
 Project cards and article content are rendered in HTML. Links and FAQ remain usable without JavaScript; filters and clipboard controls appear when supported. Contact actions use email, phone, WhatsApp, and LinkedIn directly.
 

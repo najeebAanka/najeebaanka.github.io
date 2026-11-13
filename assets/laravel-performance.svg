@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" fill="none">
+  <rect width="1200" height="720" fill="#F0F5F3"/>
+  <circle cx="1090" cy="60" r="265" stroke="#D4E2DC"/>
+  <circle cx="1090" cy="60" r="345" stroke="#E1EBE6"/>
+  <g font-family="Arial, sans-serif">
+    <text x="85" y="92" fill="#367A61" font-size="17" letter-spacing="4">PRACTICAL LARAVEL PERFORMANCE</text>
+    <text x="85" y="191" fill="#17233A" font-size="58" font-weight="700" letter-spacing="-2">Measure. Improve. Repeat.</text>
+    <rect x="85" y="275" width="620" height="270" rx="18" fill="#fff" stroke="#D4E2DC"/>
+    <text x="119" y="322" fill="#58667B" font-size="17">A REQUEST, BROKEN INTO ITS PARTS</text>
+    <text x="119" y="376" fill="#17233A" font-size="19">Queries</text>
+    <text x="119" y="432" fill="#17233A" font-size="19">External calls</text>
+    <text x="119" y="488" fill="#17233A" font-size="19">Rendering</text>
+    <rect x="290" y="355" width="345" height="27" rx="6" fill="#D7E6DE"/>
+    <rect x="290" y="355" width="265" height="27" rx="6" fill="#367A61"/>
+    <rect x="290" y="411" width="345" height="27" rx="6" fill="#D7E6DE"/>
+    <rect x="290" y="411" width="185" height="27" rx="6" fill="#659A83"/>
+    <rect x="290" y="467" width="345" height="27" rx="6" fill="#D7E6DE"/>
+    <rect x="290" y="467" width="100" height="27" rx="6" fill="#97B9A8"/>
+    <text x="795" y="335" fill="#367A61" font-size="18" letter-spacing="2">START WITH EVIDENCE</text>
+    <text x="795" y="392" fill="#17233A" font-size="30" font-weight="700">Find the bottleneck.</text>
+    <text x="795" y="437" fill="#58667B" font-size="22">Change one thing.</text>
+    <text x="795" y="477" fill="#58667B" font-size="22">Check the result.</text>
+    <path d="M85 610H1115" stroke="#D4E2DC"/>
+    <text x="85" y="660" fill="#58667B" font-size="17">ILLUSTRATIVE BREAKDOWN · NOT BENCHMARK DATA</text>
+    <text x="1115" y="660" fill="#17233A" font-size="21" font-weight="700" text-anchor="end">Najeeb Anka.</text>
+  </g>
+</svg>
