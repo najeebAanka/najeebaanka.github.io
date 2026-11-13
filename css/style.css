@@ -10,7 +10,27 @@
   --body:'DM Sans',sans-serif
 }
 * {
-  box-sizing:border-box
+  box-sizing:border-box;
+  scrollbar-width:thin;
+  scrollbar-color:var(--muted) var(--bg)
+}
+::-webkit-scrollbar {
+  width:10px;
+  height:10px
+}
+::-webkit-scrollbar-track {
+  background:var(--bg)
+}
+::-webkit-scrollbar-thumb {
+  background:var(--muted);
+  border:2px solid var(--bg);
+  border-radius:999px
+}
+::-webkit-scrollbar-thumb:hover {
+  background:var(--text)
+}
+::-webkit-scrollbar-corner {
+  background:var(--bg)
 }
 html {
   scroll-behavior:smooth;
