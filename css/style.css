@@ -393,9 +393,9 @@ p {
   bottom:32px;
   width:2px;
   background:linear-gradient(#b4c8f7,var(--accent));
-  transform-origin:top;
-  animation:delivery-connect 3.8s .2s both
+  transform-origin:top
 }
+.delivery-visual.is-started .delivery-path::before {animation:delivery-connect 3.8s .2s both}
 .delivery-node {
   position:relative;
   display:flex;
@@ -405,9 +405,9 @@ p {
   background:var(--surface);
   border:1px solid #e0e7f2;
   border-radius:12px;
-  box-shadow:0 4px 12px #264b9405;
-  animation:delivery-enter .65s calc(.2s + var(--step) * .65s) both
+  box-shadow:0 4px 12px #264b9405
 }
+.delivery-visual.is-started .delivery-node {animation:delivery-enter .65s calc(.2s + var(--step) * .65s) both}
 .delivery-node::after {
   content:'';
   position:absolute;
@@ -418,7 +418,10 @@ p {
   pointer-events:none;
   opacity:0
 }
-.delivery-node::after {animation:delivery-highlight 10s calc(4.2s + var(--step) * 1.1s) infinite both}
+.delivery-visual.is-started .delivery-node::after {animation:delivery-highlight 10s calc(4.2s + var(--step) * 1.1s) infinite both}
+.delivery-visual.is-animation-paused .delivery-path::before,
+.delivery-visual.is-animation-paused .delivery-node,
+.delivery-visual.is-animation-paused .delivery-node::after {animation-play-state:paused}
 .delivery-node-final::after {border-color:#b8ceff;box-shadow:0 0 0 3px #285be825}
 @keyframes delivery-highlight {
   0%,11%,100% {opacity:0}
@@ -457,7 +460,9 @@ p {
   .delivery-canvas {padding:23px 18px 19px}
 }
 @media(prefers-reduced-motion:reduce) {
-  .delivery-path::before,.delivery-node,.delivery-node::after {animation:none}
+  .delivery-visual.is-started .delivery-path::before,
+  .delivery-visual.is-started .delivery-node,
+  .delivery-visual.is-started .delivery-node::after {animation:none}
 }
 
 .expertise-strip {

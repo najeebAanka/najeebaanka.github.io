@@ -59,6 +59,21 @@ document.addEventListener('keydown', event => {
   if (quickToggle?.getAttribute('aria-expanded') === 'true') closeContact(true);
 });
 const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
+const deliveryVisual = document.querySelector('.delivery-visual');
+if (deliveryVisual) {
+  if ('IntersectionObserver' in window) {
+    const deliveryObserver = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        const visible = entry.isIntersecting && entry.intersectionRatio >= 0.15;
+        if (visible) deliveryVisual.classList.add('is-started');
+        deliveryVisual.classList.toggle('is-animation-paused', !visible);
+      });
+    }, { threshold: [0, 0.15] });
+    deliveryObserver.observe(deliveryVisual);
+  } else {
+    deliveryVisual.classList.add('is-started');
+  }
+}
 const reveals = [...document.querySelectorAll('.reveal')];
 if ('IntersectionObserver' in window && !reducedMotion.matches) {
   const observer = new IntersectionObserver(entries => {
